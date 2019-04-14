@@ -338,3 +338,1397 @@ antioxidant
 
 
 
+stabilizer
+<- sc_node_not_relation;
+=> nrel_main_idtf:[стабилизатор](* <- lang_ru;; *);
+=> nrel_main_idtf:[stabilizer](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (стабилизатор)](* <- lang_ru;; *);
+		[Def. (stabilizer)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="stabilizer">стабилизатор</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="stabilizer">stabilizer</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+emulsifier
+<- sc_node_not_relation;
+=> nrel_main_idtf:[эмульгатор](* <- lang_ru;; *);
+=> nrel_main_idtf:[emulsifier](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (эмульгатор)](* <- lang_ru;; *);
+		[Def. (emulsifier)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="emulsifier">эмульгатор</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="emulsifier">emulsifier</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+flavor_enhancer
+<- sc_node_not_relation;
+=> nrel_main_idtf:[усилитель вкуса](* <- lang_ru;; *);
+=> nrel_main_idtf:[flavor enhancer](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (усилитель вкуса)](* <- lang_ru;; *);
+		[Def. (flavor_enhancer)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="flavor_enhancer">усилитель вкуса</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="flavor_enhancer">flavor_enhancer</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+defoaming_agent
+<- sc_node_not_relation;
+=> nrel_main_idtf:[пеногаситель](* <- lang_ru;; *);
+=> nrel_main_idtf:[defoaming agent](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (пеногаситель)](* <- lang_ru;; *);
+		[Def. (defoaming_agent)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="defoaming_agent">пеногаситель</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="defoaming_agent">defoaming_agent</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+curcumin
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+=> nrel_main_idtf:[куркумин](* <- lang_ru;; *);
+=> nrel_main_idtf:[curcumin](* <- lang_en;; *);
+=> nrel_label:[e100](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (куркумин, химическая формула, атом углерода, атом водорода, атом кислорода)](*<-lang_ru;;*);
+		[Exp. (curcumin, chemical formula, hydrogen atom, oxygen atom, carbon atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="curcumin">куркумина</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>21</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>6</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="curcumin">curcumin</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>21</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>6</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (куркумин)](* <- lang_ru;; *);
+		[Def. (curcumin)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="curcumin">куркумин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="curcumin">curcumin</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+riboflavin
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[рибофлавин](* <- lang_ru;; *);
+=> nrel_main_idtf:[riboflavin](* <- lang_en;; *);
+=> nrel_label:[e101](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (рибофлавин, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота)](*<-lang_ru;;*);
+		[Exp. (riboflavin, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="riboflavin">рибофлавина</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>17</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>6</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="riboflavin">riboflavin</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>17</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>6</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (рибофлавин)](* <- lang_ru;; *);
+		[Def. (riboflavin)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="riboflavin">рибофлавин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="riboflavin">riboflavin</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+tartrazine
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[тартразин](* <- lang_ru;; *);
+=> nrel_main_idtf:[tartrazine](* <- lang_en;; *);
+=> nrel_label:[e102](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (тартразин, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота)](*<-lang_ru;;*);
+		[Exp. (tartrazine, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="tartrazine">тартразина</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>9</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>9</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="tartrazine">tartrazine</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>9</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>9</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (тартразин)](* <- lang_ru;; *);
+		[Def. (tartrazine)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="tartrazine">тартразин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="tartrazine">tartrazine</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+alkanine
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[алканин](* <- lang_ru;; *);
+=> nrel_main_idtf:[alkanine](* <- lang_en;; *);
+=> nrel_label:[e103](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (алканин, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (alkanine, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="alkanine">алканина</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>12</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>9</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>1</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>5</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="alkanine">alkanine</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>12</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>9</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>5</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (алканин)](* <- lang_ru;; *);
+		[Def. (alkanine)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="alkanine">алканин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="alkanine">alkanine</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+yellow_quinoline
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[желтый хиолиновый](* <- lang_ru;; *);
+=> nrel_main_idtf:[yellow_quinoline](* <- lang_en;; *);
+=> nrel_label:[e104](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (желтый хиолиновый, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (yellow_quinoline, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="yellow_quinoline">желтого хиолинового</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>18</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>9</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="yellow_quinoline">yellow quinoline</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>18</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>9</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (желтый хиолиновый)](* <- lang_ru;; *);
+		[Def. (yellow_quinoline)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="yellow_quinoline">желтый хиолиновый</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="yellow_quinoline">yellow_quinoline</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+AB_yellow
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- forbidden_supplement;
+=> nrel_main_idtf:[желтый прочный AB](* <- lang_ru;; *);
+=> nrel_main_idtf:[AB_yellow](* <- lang_en;; *);
+=> nrel_label:[e105](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (желтый прочный AB, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (AB_yellow, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="AB_yellow">желтого прочного AB</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>12</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>11</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>6</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="AB_yellow">yellow AB</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>12</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>11</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>6</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (желтый прочный AB)](* <- lang_ru;; *);
+		[Def. (AB_yellow)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="AB_yellow">желтый прочный AB</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="AB_yellow">AB_yellow</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+flavin_mononucleotide_sodium_salt
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[натриевая соль рибофлавин-5′-фосфата](* <- lang_ru;; *);
+=> nrel_main_idtf:[flavin mononucleotide sodium salt](* <- lang_en;; *);
+=> nrel_label:[e106](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (натриевая соль рибофлавин-5′-фосфата, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (flavin_mononucleotide_sodium_salt, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="flavin_mononucleotide_sodium_salt">Натриевой соли рибофлавин-5′-фосфата</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>17</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>9</sub><sc_element
+		sys_idtf="elem_P">P</sc_element><b><sub>9</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="flavin_mononucleotide_sodium_salt">Flavin mononucleotide sodium salt</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>17</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>9</sub><sc_element
+		sys_idtf="elem_P">P</sc_element><b><sub>9</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (натриевая соль рибофлавин-5′-фосфата)](* <- lang_ru;; *);
+		[Def. (flavin_mononucleotide_sodium_salt)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="flavin_mononucleotide_sodium_salt">желтый прочный AB</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="flavin_mononucleotide_sodium_salt">flavin_mononucleotide_sodium_salt</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+yellow_2G
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- forbidden_supplement;
+=> nrel_main_idtf:[жёлтый 2G](* <- lang_ru;; *);
+=> nrel_main_idtf:[yellow 2G](* <- lang_en;; *);
+=> nrel_label:[e107](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (жёлтый 2G, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (yellow_2G, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="yellow_2G">Жёлтого 2G</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>17</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>9</sub><sc_element
+		sys_idtf="elem_P">P</sc_element><b><sub>9</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="yellow_2G">Yellow 2G</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>17</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>9</sub><sc_element
+		sys_idtf="elem_P">P</sc_element><b><sub>9</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Жёлтый 2G)](* <- lang_ru;; *);
+		[Def. (yellow 2G)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="yellow_2G">желтый прочный AB</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="yellow_2G">yellow_2G</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+sunset_yellow_FCF
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- forbidden_supplement;
+=> nrel_main_idtf:[жёлтый «солнечный закат»](* <- lang_ru;; *);
+=> nrel_main_idtf:[Sunset Yellow FCF](* <- lang_en;; *);
+=> nrel_label:[e110](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (жёлтый «солнечный закат», химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (sunset_yellow_FCF, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="sunset_yellow_FCF">жёлтого «солнечный закат»</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="sunset_yellow_FCF">Sunset Yellow FCF</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Жёлтый «солнечный закат»)](* <- lang_ru;; *);
+		[Def. (Sunset Yellow FCF)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="sunset_yellow_FCF">Жёлтый «солнечный закат»</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="sunset_yellow_FCF">sunset_yellow_FCF</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+orange_GGN
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- forbidden_supplement;
+=> nrel_main_idtf:[Оранжевый GGN](* <- lang_ru;; *);
+=> nrel_main_idtf:[Orange GGN](* <- lang_en;; *);
+=> nrel_label:[e111](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (жёлтый «солнечный закат», химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (orange_GGN, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="orange_GGN">Оранжевого GGN</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="orange_GGN">Orange GGN</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Оранжевый GGN)](* <- lang_ru;; *);
+		[Def. (Orange GGN)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="orange_GGN">Оранжевый GGN</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="orange_GGN">orange_GGN</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+carmine
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[кармин](* <- lang_ru;; *);
+=> nrel_main_idtf:[carmine](* <- lang_en;; *);
+=> nrel_label:[e120](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Кармин)](* <- lang_ru;; *);
+		[Def. (Carmines)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="carmine">Кармин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="carmine">carmine</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+azorubine
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[азорубин](* <- lang_ru;; *);
+=> nrel_main_idtf:[azorubine](* <- lang_en;; *);
+=> nrel_label:[e122](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (азорубин, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (azorubine, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="azorubine">азорубина</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>12</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="azorubine">сarmine</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>12</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (азорубин)](* <- lang_ru;; *);
+		[Def. (azorubines)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="azorubine">азорубин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="azorubine">azorubine</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+amaranth
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- forbidden_supplement;
+=> nrel_main_idtf:[амарант](* <- lang_ru;; *);
+=> nrel_main_idtf:[amaranth](* <- lang_en;; *);
+=> nrel_label:[e123](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (амарант, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (amaranth, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="amaranth">амаранта</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>11</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>3</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="amaranth">сarmine</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>11</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>3</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (амарант)](* <- lang_ru;; *);
+		[Def. (amaranths)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="amaranth">амарант</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="amaranth">amaranth</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ponceau_4R
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[пунцовый 4R](* <- lang_ru;; *);
+=> nrel_main_idtf:[ponceau 4R](* <- lang_en;; *);
+=> nrel_label:[e124](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (пунцовый 4R, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (Ponceau 4R, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="ponceau_4R">пунцового 4Rа</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>11</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>3</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="ponceau_4R">Ponceau 4R</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>11</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>3</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (пунцовый 4R)](* <- lang_ru;; *);
+		[Def. (Ponceau 4R)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="ponceau_4R">пунцового 4R</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="ponceau_4R">Ponceau 4R</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ponceau_6R
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[понсо 6R](* <- lang_ru;; *);
+=> nrel_main_idtf:[ponceau 6R](* <- lang_en;; *);
+=> nrel_label:[e126](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (понсо 6R, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (ponceau 6R, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="ponceau_6R ">понсо 6R</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>4</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>14</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="ponceau_6R ">ponceau 6R</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>20</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>10</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>14</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (понсо 6R)](* <- lang_ru;; *);
+		[Def. (ponceau 6R)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="ponceau_6R">Понсо 6R</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="ponceau_6R">ponceau 6R</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+allura_red_AC
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[Красный очаровательный АС](* <- lang_ru;; *);
+=> nrel_main_idtf:[Allura Red AC](* <- lang_en;; *);
+=> nrel_label:[e129](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (Красный очаровательный АС, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (Allura Red AC, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="allura_red_AC ">Красный очаровательный АС</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>18</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>14</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="allura_red_AC ">Allura Red AC</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>18</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>14</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Красный очаровательный АС)](* <- lang_ru;; *);
+		[Def. (Allura Red AC)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="allura_red_AC">Красный очаровательный АС</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="allura_red_AC">Allura Red AC</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+patent_blue_V
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[Синий патентованный V](* <- lang_ru;; *);
+=> nrel_main_idtf:[Patent Blue V](* <- lang_en;; *);
+=> nrel_label:[e131](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (Синий патентованный V, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом кальция)](*<-lang_ru;;*);
+		[Exp. (Patent Blue V, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, calcium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="patent_blue_V ">Синий патентованный V</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>54</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>62</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Ca">Ca</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>4</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="patent_blue_V ">Patent Blue V</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>54</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>62</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Ca">Ca</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>14</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Синий патентованный V)](* <- lang_ru;; *);
+		[Def. (Patent Blue V)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="patent_blue_V">Синий патентованный V</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="patent_blue_V">Patent Blue V</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+indigo_carmine
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- not_allowed_supplement;
+=> nrel_main_idtf:[Индигокармин](* <- lang_ru;; *);
+=> nrel_main_idtf:[Indigo carmine](* <- lang_en;; *);
+=> nrel_label:[e132](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (Индигокармин, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (Indigo carmine, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="indigo_carmine ">Индигокармин</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>8</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="indigo_carmine ">Indigo carmine</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>16</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>8</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>8</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Индигокармин)](* <- lang_ru;; *);
+		[Def. (Indigo carmine)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="indigo_carmine">Индигокармин</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="indigo_carmine">Indigo carmine</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+brilliant_blue_FCF
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[Синий блестящий FCF](* <- lang_ru;; *);
+=> nrel_main_idtf:[brilliant blue FCF](* <- lang_en;; *);
+=> nrel_label:[e133](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (Синий блестящий FCF, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (brilliant blue FCF, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="brilliant_blue_FCF ">Синий блестящий FCF</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>37</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>34</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>9</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="brilliant_blue_FCF ">brilliant blue FCF</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>37</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>34</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>9</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (Синий блестящий FCF)](* <- lang_ru;; *);
+		[Def. (brilliant blue FCF)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="brilliant_blue_FCF">Синий блестящий FCF</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="brilliant_blue_FCF">brilliant blue FCF</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fast_green
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- forbidden_supplement;
+=> nrel_main_idtf:[быстрый зеленый](* <- lang_ru;; *);
+=> nrel_main_idtf:[fast green](* <- lang_en;; *);
+=> nrel_label:[e134](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (быстрый зеленый)](* <- lang_ru;; *);
+		[Def. (fast green)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="fast_green">быстрый зеленый</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="fast_green">fast green</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chlorophyll
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[хлорофилл](* <- lang_ru;; *);
+=> nrel_main_idtf:[chlorophyll](* <- lang_en;; *);
+=> nrel_label:[e140](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (хлорофилл, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом магния)](*<-lang_ru;;*);
+		[Exp. (chlorophyll, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, magnesium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="chlorophyll ">хлорофилл</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>55</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>72</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Mg">Mg</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>5</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="chlorophyll ">chlorophyll</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>55</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>72</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_Mg">Mg</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>5</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (хлорофилл)](* <- lang_ru;; *);
+		[Def. (chlorophyll)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll">хлорофилл</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll">chlorophyll</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chlorophyll_copper_complex
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[хлорофилла медные комплексы](* <- lang_ru;; *);
+=> nrel_main_idtf:[chlorophyll_copper_complex](* <- lang_en;; *);
+=> nrel_label:[e141](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (хлорофилла медные комплексы)](* <- lang_ru;; *);
+		[Def. (chlorophyll copper complex)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll_copper_complex">хлорофилла медные комплексы</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll_copper_complex">chlorophyll_copper_complex</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+green_S
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[зеленый S](* <- lang_ru;; *);
+=> nrel_main_idtf:[green S](* <- lang_en;; *);
+=> nrel_label:[e142](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (зеленый S, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (green S, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="green_S ">зеленый S</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>27</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>25</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="green_S ">green_S</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>27</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>25</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>7</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (зеленый S)](* <- lang_ru;; *);
+		[Def. (green S)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="green_S">зеленый S</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="green_S">green_S</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+plain_caramel
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[сахарный колер](* <- lang_ru;; *);
+=> nrel_main_idtf:[Plain caramel](* <- lang_en;; *);
+=> nrel_label:[e150](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (сахарный колер)](* <- lang_ru;; *);
+		[Def. (Plain caramel)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="plain_caramel">сахарный колер</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="plain_caramel">plain_caramel</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+black_7984
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[уголь](* <- lang_ru;; *);
+=> nrel_main_idtf:[Black 7984](* <- lang_en;; *);
+=> nrel_label:[e152](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (уголь, химическая формула, атом углерода, атом водорода, атом кислорода, атом азота, атом серы, атом натрия)](*<-lang_ru;;*);
+		[Exp. (Black 7984, chemical formula, hydrogen atom, oxygen atom, carbon atom, nitrogen atom, sodium atom, natrium atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="black_7984 ">уголь</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>26</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>19</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>5</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>4</sub><b><sc_element
+		sys_idtf="elem_O">O</sc_element><b><sub>13</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="black_7984 ">black_7984</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>26</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>19</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>5</sub><b><sc_element sys_idtf="elem_Na">Na</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_S">S</sc_element><b><sub>4</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>13</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (уголь)](* <- lang_ru;; *);
+		[Def. (Black 7984)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="black_7984">уголь</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="black_7984">black_7984</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+carbon_black
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[уголь растительный](* <- lang_ru;; *);
+=> nrel_main_idtf:[carbon black](* <- lang_en;; *);
+=> nrel_label:[e153](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (уголь растительный)](* <- lang_ru;; *);
+		[Def. (Carbon black)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="carbon_black">уголь растительный</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="carbon_black">carbon_black</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
