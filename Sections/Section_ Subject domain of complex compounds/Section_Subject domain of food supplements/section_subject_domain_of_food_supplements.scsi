@@ -1,0 +1,340 @@
+subject_domain_of_food_supplements
+	=> nrel_main_idtf:[Предметная область пищевых добавок](* <- lang_ru;; *);
+	=> nrel_main_idtf:[Subject domain of food supplements](* <- lang_en;; *);
+<- subject_domain;
+-> rrel_maximum_studied_object_class: food_supplement;
+-> rrel_not_maximum_studied_object_class:
+	forbidden_supplement;
+	not_allowed_supplement;
+	allowed_supplement;
+	natural_food_supplement;
+	synthetic_food_supplement;
+	artificial_food_supplement;
+	synthesized_food_supplement;
+	colourant;
+	preservative;
+	antioxidant;
+	stabilizer;
+	emulsifier;
+	flavor_enhancer;
+	defoaming_agent;;
+
+
+food_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[пищевая добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[food_supplement](* <- lang_en;; *);
+=> nrel_idtf:[пищевая добавка](* <- lang_ru;; *);
+
+<= nrel_subdividing:
+...
+(*
+	=> nrel_main_idtf:[Разбиение по признаку разрешенности употребления](* <- lang_ru;; *);;
+	-> forbidden_supplement;;
+	-> not_allowed_supplement;;
+	-> allowed_supplement;;
+*);
+
+<= nrel_subdividing:
+...
+(*
+	=> nrel_main_idtf:[Разбиение по признаку происхождения](* <- lang_ru;; *);;
+	-> natural_food_supplement;;
+	-> synthetic_food_supplement;;
+*);
+
+
+<= nrel_subdividing:
+...
+(*
+	=> nrel_main_idtf:[Разбиение по категории](* <- lang_ru;; *);;
+	-> colourant;;
+	-> preservative;;
+	-> antioxidant;;
+	-> stabilizer;;
+	-> emulsifier;;
+	-> flavor_enhancer;;
+	-> defoaming_agent;;
+
+*);
+
+<- rrel_key_sc_element:
+Definition_of_food_supplement
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (пищевая добавка)](* <- lang_ru;; *);
+		[Def. (food_supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> chemical_substance;;
+	*);;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example:[<b><sc_element sys_idtf="food_supplement">Пищевая добавка</sc_element></b> - <b><sc_element sys_idtf="chemical_substance">вещества</sc_element></b>, добавляемые в технологических целях в пищевые продукты в процессе производства, упаковки, транспортировки или хранения для придания им желаемых свойств, например, определённого аромата, цвета, длительности хранения, вкуса, консистенции и так далее.](* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example:[<b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> - <b><sc_element sys_idtf="chemical_substance">substance</sc_element></b> added to food to preserve flavor or enhance its taste, appearance, or other qualities. ](* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*);
+
+<- rrel_key_sc_element:...
+(*
+	<- illustration;;
+	=> nrel_main_idtf:
+		[Рис. (пищевая добавка)](* <- lang_ru;; *);
+		[Pic. (food_supplement)](* <- lang_en;; *);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example: "file://image/food_supplement.png"(* => nrel_format: format_png;;*);;
+		*);;
+*);;
+
+
+
+forbidden_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[запрещенная добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[forbidden supplement](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (запрещенная добавка)](* <- lang_ru;; *);
+		[Def. (forbidden supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="forbidden_supplement">Запрещенная добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="forbidden_supplement">Forbidden supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+not_allowed_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[неразрешенная добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[not allowed supplement](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (неразрешенная добавка)](* <- lang_ru;; *);
+		[Def. (not allowed supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="not_allowed_supplement">неразрешенная добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="not_allowed_supplement">not allowed supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+allowed_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[разрешенная добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[allowed supplement](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (разрешенная добавка)](* <- lang_ru;; *);
+		[Def. (allowed supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="allowed_supplement">разрешенная добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="allowed_supplement">allowed supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+natural_food_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[натуральная пищевая добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[natural food supplement](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (натуральная пищевая добавка)](* <- lang_ru;; *);
+		[Def. (natural food supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="natural_food_supplement">натуральная пищевая добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="natural_food_supplement">natural food supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+synthetic_food_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[синтетическая пищевая добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[synthetic food supplement](* <- lang_en;; *);
+<= nrel_subdividing:...
+(*
+	-> artificial_food_supplement;;
+	-> synthesized_food_supplement;;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (синтетическая пищевая добавка)](* <- lang_ru;; *);
+		[Def. (synthetic food supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="synthetic_food_supplement">синтетическая пищевая добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="synthetic_food_supplement">synthetic food supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+artificial_food_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[искусственная пищевая добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[artificial food supplement](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (искусственная пищевая добавка)](* <- lang_ru;; *);
+		[Def. (artificial food supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="artificial_food_supplement">искусственная пищевая добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="artificial_food_supplement">artificial food supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+synthesized_food_supplement
+<- sc_node_not_relation;
+=> nrel_main_idtf:[синтезированная пищевая добавка](* <- lang_ru;; *);
+=> nrel_main_idtf:[synthesized food supplement](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (синтезированная пищевая добавка)](* <- lang_ru;; *);
+		[Def. (synthesized food supplement)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="synthesized_food_supplement">синтезированная пищевая добавка</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="synthesized_food_supplement">synthesized food supplement</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+colourant
+<- sc_node_not_relation;
+=> nrel_main_idtf:[краситель](* <- lang_ru;; *);
+=> nrel_main_idtf:[colourant](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (краситель)](* <- lang_ru;; *);
+		[Def. (colourant)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="colourant">краситель</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="colourant">colourant</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+preservative
+<- sc_node_not_relation;
+=> nrel_main_idtf:[консервант](* <- lang_ru;; *);
+=> nrel_main_idtf:[preservative](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (консервант)](* <- lang_ru;; *);
+		[Def. (preservative)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="preservative">консервант</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="preservative">preservative</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+antioxidant
+<- sc_node_not_relation;
+=> nrel_main_idtf:[антиоксидант](* <- lang_ru;; *);
+=> nrel_main_idtf:[antioxidant](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (антиоксидант)](* <- lang_ru;; *);
+		[Def. (antioxidant)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="antioxidant">антиоксидант</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, запрещенная к использованию.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="antioxidant">antioxidant</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that is prohibited to use.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
