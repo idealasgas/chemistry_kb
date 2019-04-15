@@ -11,7 +11,7 @@ subject_domain_of_food_supplements
 	synthetic_food_supplement;
 	artificial_food_supplement;
 	synthesized_food_supplement;
-	colourant;
+	food_colourant;
 	preservative;
 	antioxidant;
 	stabilizer;
@@ -48,7 +48,7 @@ food_supplement
 ...
 (*
 	=> nrel_main_idtf:[Разбиение по категории](* <- lang_ru;; *);;
-	-> colourant;;
+	-> food_colourant;;
 	-> preservative;;
 	-> antioxidant;;
 	-> stabilizer;;
@@ -263,10 +263,10 @@ synthesized_food_supplement
 
 
 
-colourant
+food_colourant
 <- sc_node_not_relation;
 => nrel_main_idtf:[краситель](* <- lang_ru;; *);
-=> nrel_main_idtf:[colourant](* <- lang_en;; *);
+=> nrel_main_idtf:[food_colourant](* <- lang_en;; *);
 
 
 <- rrel_key_sc_element:...
@@ -274,15 +274,15 @@ colourant
 	<- definition;;
 	=> nrel_main_idtf:
 		[Опр. (краситель)](* <- lang_ru;; *);
-		[Def. (colourant)](* <- lang_en;; *);;
+		[Def. (food_colourant)](* <- lang_en;; *);;
 	<= nrel_using_constants:...
 	(*
 		-> food_supplement;;
 	*);;
 	<= nrel_sc_text_translation:...
 		(*
-			-> rrel_example:[<b><sc_element sys_idtf="colourant">Краситель</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, придающая продуктам цвет.](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="colourant">Colourant</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that gives colour to the food.](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="food_colourant">Краситель</sc_element></b> - <b><sc_element sys_idtf="food_supplement">пищевая добавка</sc_element></b>, придающая продуктам цвет.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="food_colourant">food_colourant</sc_element></b> - <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> that gives colour to the food.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -442,7 +442,7 @@ defoaming_agent
 
 curcumin
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 => nrel_main_idtf:[куркумин](* <- lang_ru;; *);
 => nrel_main_idtf:[curcumin](* <- lang_en;; *);
@@ -476,7 +476,7 @@ curcumin
 	<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="curcumin">куркумин</sc_element></b> - ярко-желтые натуральные красители, получаемые из растения куркумы (Curcuma longa).](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="curcumin">curcumin</sc_element></b> - bright yellow natural colourants derived from the turmeric plant (Curcuma longa).](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="curcumin">curcumin</sc_element></b> - bright yellow natural food_colourants derived from the turmeric plant (Curcuma longa).](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -487,7 +487,7 @@ curcumin
 
 riboflavin
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[рибофлавин](* <- lang_ru;; *);
@@ -540,7 +540,7 @@ riboflavin
 
 tartrazine
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[тартразин](* <- lang_ru;; *);
@@ -589,7 +589,7 @@ tartrazine
 
 alkanine
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[алканин](* <- lang_ru;; *);
@@ -640,7 +640,7 @@ alkanine
 
 yellow_quinoline
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[желтый хиолиновый](* <- lang_ru;; *);
@@ -687,7 +687,7 @@ yellow_quinoline
 
 AB_yellow
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- forbidden_supplement;
 => nrel_main_idtf:[желтый прочный AB](* <- lang_ru;; *);
@@ -724,7 +724,7 @@ AB_yellow
 	<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="AB_yellow">Желтый прочный AB</sc_element></b> синтетический краситель желтого цвета.](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="AB_yellow">AB yellow</sc_element></b> - yellow synthetic colourant.](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="AB_yellow">AB yellow</sc_element></b> - yellow synthetic food_colourant.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -739,7 +739,7 @@ AB_yellow
 
 flavin_mononucleotide_sodium_salt
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[натриевая соль рибофлавин-5′-фосфата](* <- lang_ru;; *);
@@ -796,7 +796,7 @@ flavin_mononucleotide_sodium_salt
 
 yellow_2G
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- forbidden_supplement;
 => nrel_main_idtf:[жёлтый 2G](* <- lang_ru;; *);
@@ -835,7 +835,7 @@ yellow_2G
 	<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="yellow_2G">Желтый 2G</sc_element></b> представляет собой краситель желтого цвета, произведенный методом синтезирования.](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="yellow_2G">Yellow 2G</sc_element></b> - is a yellow colourant produced by the method of synthesizing.](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="yellow_2G">Yellow 2G</sc_element></b> - is a yellow food_colourant produced by the method of synthesizing.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -853,7 +853,7 @@ yellow_2G
 
 sunset_yellow_FCF
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- forbidden_supplement;
 => nrel_main_idtf:[жёлтый «солнечный закат»](* <- lang_ru;; *);
@@ -902,7 +902,7 @@ sunset_yellow_FCF
 
 orange_GGN
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- forbidden_supplement;
 => nrel_main_idtf:[Оранжевый GGN](* <- lang_ru;; *);
@@ -939,7 +939,7 @@ orange_GGN
 	<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="orange_GGN">Оранжевый GGN</sc_element></b> - краситель оранжевого цвета.](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="orange_GGN">Orange GGN</sc_element></b> - colourant of orange colour.](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="orange_GGN">Orange GGN</sc_element></b> - food_colourant of orange colour.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -947,7 +947,7 @@ orange_GGN
 
 carmine
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[кармин](* <- lang_ru;; *);
@@ -968,7 +968,7 @@ carmine
 	<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="carmine">Кармин</sc_element></b> - красящее вещество красновато-пурпурного цвета.](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="carmine">Carmine</sc_element></b> - colourant reddish-purple.](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="carmine">Carmine</sc_element></b> - food_colourant reddish-purple.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -978,7 +978,7 @@ carmine
 
 azorubine
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[азорубин](* <- lang_ru;; *);
@@ -1036,7 +1036,7 @@ azorubine
 
 amaranth
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- forbidden_supplement;
 => nrel_main_idtf:[амарант](* <- lang_ru;; *);
@@ -1094,7 +1094,7 @@ amaranth
 
 ponceau_4R
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[пунцовый 4R](* <- lang_ru;; *);
@@ -1152,7 +1152,7 @@ ponceau_4R
 
 ponceau_6R
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[понсо 6R](* <- lang_ru;; *);
@@ -1202,7 +1202,7 @@ ponceau_6R
 
 allura_red_AC
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[Красный очаровательный АС](* <- lang_ru;; *);
@@ -1264,7 +1264,7 @@ allura_red_AC
 
 patent_blue_V
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[Синий патентованный V](* <- lang_ru;; *);
@@ -1318,7 +1318,7 @@ patent_blue_V
 
 indigo_carmine
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- not_allowed_supplement;
 => nrel_main_idtf:[Индигокармин](* <- lang_ru;; *);
@@ -1379,7 +1379,7 @@ indigo_carmine
 
 brilliant_blue_FCF
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[Синий блестящий FCF](* <- lang_ru;; *);
@@ -1436,7 +1436,7 @@ brilliant_blue_FCF
 
 fast_green
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- forbidden_supplement;
 => nrel_main_idtf:[быстрый зеленый](* <- lang_ru;; *);
@@ -1476,7 +1476,7 @@ fast_green
 
 chlorophyll
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[хлорофилл](* <- lang_ru;; *);
@@ -1540,7 +1540,7 @@ chlorophyll
 
 chlorophyll_copper_complex
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[хлорофилла медные комплексы](* <- lang_ru;; *);
@@ -1561,7 +1561,7 @@ chlorophyll_copper_complex
 	<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll_copper_complex">Хлорофилла медные комплексы</sc_element></b> - натуральный краситель зеленого цвета.](* <- lang_ru;; => nrel_format: format_html;;*);;
-			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll_copper_complex">Chlorophyll copper complex</sc_element></b> - natural colourant of green colour.](* <- lang_en;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="chlorophyll_copper_complex">Chlorophyll copper complex</sc_element></b> - natural food_colourant of green colour.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
@@ -1577,7 +1577,7 @@ chlorophyll_copper_complex
 
 green_S
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[зеленый S](* <- lang_ru;; *);
@@ -1622,7 +1622,7 @@ green_S
 
 plain_caramel
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- natural_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[сахарный колер](* <- lang_ru;; *);
@@ -1656,7 +1656,7 @@ plain_caramel
 
 black_7984
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[уголь](* <- lang_ru;; *);
@@ -1708,7 +1708,7 @@ black_7984
 
 carbon_black
 <- sc_node_not_relation;
-<- colourant;
+<- food_colourant;
 <- artificial_food_supplement;
 <- allowed_supplement;
 => nrel_main_idtf:[уголь растительный](* <- lang_ru;; *);
@@ -1729,6 +1729,240 @@ carbon_black
 		(*
 			-> rrel_example:[<b><sc_element sys_idtf="carbon_black">уголь растительный</sc_element></b> - ископаемое органическое вещество, которое образуется под землей из древних растений.](* <- lang_ru;; => nrel_format: format_html;;*);;
 			-> rrel_example:[<b><sc_element sys_idtf="carbon_black">carbon_black</sc_element></b> - fossil organic matter that is formed underground from ancient plants.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+carotene
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[каротин](* <- lang_ru;; *);
+=> nrel_main_idtf:[carotene](* <- lang_en;; *);
+=> nrel_label:[e160a](* <- lang_en;; *);
+
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (каротин, химическая формула, атом углерода, атом водорода)](*<-lang_ru;;*);
+		[Exp. (carotine, chemical formula, hydrogen atom, carbon atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="carotene">каротин</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>40</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>56</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="carotene">carotene</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>40</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>56</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (каротин)](* <- lang_ru;; *);
+		[Def. (carotene)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="carotene">Каротин</sc_element></b> - оранжевый пигмент, образуемый в результате фотосинтеза растений.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="carotene">Carotene</sc_element></b> - orange pigment formed by photosynthesis of plants.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+annatto_extract
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[аннато экстракт](* <- lang_ru;; *);
+=> nrel_main_idtf:[annatto extract](* <- lang_en;; *);
+=> nrel_label:[e160b](* <- lang_en;; *);
+
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (аннато экстракт, химическая формула, атом углерода, атом водорода)](*<-lang_ru;;*);
+		[Exp. (annatto extract, chemical formula, hydrogen atom, carbon atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="annatto_extract">аннато экстракта</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>25</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>30</sub><sc_element sys_idtf="elem_O">O</sc_element><b><sub>4</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="annatto_extract">annatto extract</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>25</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>30</sub><sc_element sys_idtf="elem_O">O</sc_element><b><sub>4</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (аннато экстракт)](* <- lang_ru;; *);
+		[Def. (annatto extract)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="annatto_extract">Аннато экстракт</sc_element></b> - это краситель растительного происхождения от желтого до темно-оранжевого цвета.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="annatto_extract">Annatto extract</sc_element></b> - vegetable color dye from yellow to dark orange.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+paprika_oil
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[маслосмолы паприки](* <- lang_ru;; *);
+=> nrel_main_idtf:[paprika oil](* <- lang_en;; *);
+=> nrel_label:[e160c](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (маслосмолы паприки)](* <- lang_ru;; *);
+		[Def. (paprika oil)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="paprika_oil">Маслосмолы паприки</sc_element></b> получают из натуральной паприки — красного стручкового перца (чили), который относится к растениям рода Capsicum.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="paprika_oil">Paprika oil</sc_element></b> is produced from natural paprika - red capsicum (chili), which belongs to the plants of the genus Capsicum.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+lutein
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[лютеин](* <- lang_ru;; *);
+=> nrel_main_idtf:[lutein](* <- lang_en;; *);
+=> nrel_label:[e161b](* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (лютеин)](* <- lang_ru;; *);
+		[Def. (lutein)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="lutein">Лютеин</sc_element></b> - это пигмент, относящийся к ксантофиллам — группе кислородосодержащих каротиноидов.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="lutein">Lutein</sc_element></b> is a xanthophyll pigment - a group of oxygen-containing carotenoids.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+red_beetroot
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[красный свекольный](* <- lang_ru;; *);
+=> nrel_main_idtf:[red_beetroot](* <- lang_en;; *);
+=> nrel_label:[e162](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (красный свекольный, химическая формула, атом углерода, атом водорода, атом кислорода)](*<-lang_ru;;*);
+		[Exp. (red_beetroot, chemical formula, hydrogen atom, oxygen atom, carbon atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="red_beetroot">красного свекольного</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>24</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>27</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>13</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="red_beetroot">red beetroot</sc_element></b> - <b><sc_element sys_idtf="elem_C">C</sc_element><b><sub>24</sub><b><sc_element sys_idtf="elem_H">H</sc_element><b><sub>27</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>13</sub><b><sc_element sys_idtf="elem_N">N</sc_element><b><sub>2</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (красный свекольный)](* <- lang_ru;; *);
+		[Def. (red beetroot)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="red_beetroot">Красный свекольный</sc_element></b> - алкалоидоподобное соединение, получаемое из пищевой свеклы, чаще из экстракта ее сока.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="red_beetroot">Red beetroot</sc_element></b> - alkaloid-like compound derived from edible beets, more often from the extract of its juice.](* <- lang_en;; => nrel_format: format_html;;*);;
 		*);;
 *);;
 
