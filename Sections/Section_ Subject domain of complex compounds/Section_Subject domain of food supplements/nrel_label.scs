@@ -1,4 +1,0 @@
-sc_node_norole_relation -> nrel_label;;
-
-nrel_label=> nrel_main_idtf:[маркировка*] (* <- lang_ru;; *);;
-nrel_label=> nrel_main_idtf: [label*] (* <- lang_en;; *);;

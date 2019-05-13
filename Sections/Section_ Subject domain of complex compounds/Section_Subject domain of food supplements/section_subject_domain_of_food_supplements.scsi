@@ -1966,3 +1966,294 @@ red_beetroot
 		*);;
 *);;
 
+
+nrel_label <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [label*](*<- lang_en;;*);
+    [маркировка*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (маркировка)](* <- lang_ru;; *);
+		[Def. (label)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="nrel_label">Маркировка</sc_element></b> это название <b><sc_element sys_idtf="food_supplement">пищевой добавки</sc_element></b> по системе INS.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="nrel_label">Label</sc_element></b> - name of <b><sc_element sys_idtf="food_supplement">food supplement</sc_element></b> according to INS.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+=> nrel_first_domain: food_dupplement;
+=> nrel_definitional_domain: food_supplement;;
+
+
+
+
+
+
+
+anthocyanin
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[антоциан](* <- lang_ru;; *);
+=> nrel_main_idtf:[anthocyanin](* <- lang_en;; *);
+=> nrel_label:[e163](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (антоциан)](* <- lang_ru;; *);
+		[Def. (anthocyanin)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="anthocyanin">Антоцианы</sc_element></b> — водорастворимые пигменты вакуолей растений, которые могут быть красных, фиолетовых или синих цветов и их оттенков в зависимости о кислотности.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="anthocyanin">Anthocyanin</sc_element></b> - water soluble pigments of plant vacuoles, which can be red, purple or blue colors and their shades depending on the acidity.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+saffron
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[шафран](* <- lang_ru;; *);
+=> nrel_main_idtf:[saffron](* <- lang_en;; *);
+=> nrel_label:[e164](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (шафран)](* <- lang_ru;; *);
+		[Def. (saffron)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="saffron">Шафраны</sc_element></b> — древняя пряность оранжевого цвета, получаемая из высушенных цветков шафрана посевного.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="saffron">Saffron</sc_element></b> - ancient orange spice obtained from dried saffron flowers.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+calcium_carbonates
+<- sc_node_not_relation;
+<- colourant;
+<- natural_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[карбонаты кальция](* <- lang_ru;; *);
+=> nrel_main_idtf:[calcium carbonates](* <- lang_en;; *);
+=> nrel_label:[e170](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (карбонаты кальция)](* <- lang_ru;; *);
+		[Def. (calcium carbonates)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="calcium_carbonates">Карбонаты кальция</sc_element></b> — хорошо известны как обычный белый мел.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="calcium_carbonates">Calcium carbonates</sc_element></b> is well known as ordinary white chalk.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+titanium_dioxide
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[диоксид титана](* <- lang_ru;; *);
+=> nrel_main_idtf:[titanium dioxide](* <- lang_en;; *);
+=> nrel_label:[e171](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (диоксид титана, химическая формула, атом титана, атом кислорода)](*<-lang_ru;;*);
+		[Exp. (titanium dioxide, chemical formula, titanium atom, oxygen atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="titanium_dioxide">диоксида титана</sc_element></b> - <b><sc_element sys_idtf="elem_Ti">Ti</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>2</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="titanium_dioxide">titanium dioxide</sc_element></b> - <b><sc_element sys_idtf="elem_Ti">Ti</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>2</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (диоксид титана)](* <- lang_ru;; *);
+		[Def. (titanium dioxide)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="titanium_dioxide">Диоксид титана</sc_element></b> — представляет собой бесцветные кристаллы, желтеющие при нагревании.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="titanium_dioxide">Titanium dioxide</sc_element></b> is a colorless crystals, turning yellow when heated.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+iron_oxides
+<- sc_node_not_relation;
+<- colourant;
+<- artificial_food_supplement;
+<- allowed_supplement;
+=> nrel_main_idtf:[оксиды железа](* <- lang_ru;; *);
+=> nrel_main_idtf:[iron oxides](* <- lang_en;; *);
+=> nrel_label:[e172](* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (оксиды железа, химическая формула, атом железа, атом кислорода)](*<-lang_ru;;*);
+		[Exp. (iron oxides, chemical formula, iron atom, oxygen atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="iron_oxides">оксида железа(I)</sc_element></b> - <b><sc_element sys_idtf="elem_Fe">Fe</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>4</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="iron_oxides">iron oxides</sc_element></b> - <b><sc_element sys_idtf="elem_Fe">Fe</sc_element><b><sub>3</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>4</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (оксиды железа, химическая формула, атом железа, атом кислорода)](*<-lang_ru;;*);
+		[Exp. (iron oxides, chemical formula, iron atom, oxygen atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="iron_oxides">оксида железа(II)</sc_element></b> - <b><sc_element sys_idtf="elem_Fe">Fe</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>3</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="iron_oxides">iron oxides</sc_element></b> - <b><sc_element sys_idtf="elem_Fe">Fe</sc_element><b><sub>2</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>3</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<- rrel_key_sc_element:...
+(*
+	<-explanation;;
+	=>nrel_main_idtf:
+		[Утв. (оксиды железа, химическая формула, атом железа, атом кислорода)](*<-lang_ru;;*);
+		[Exp. (iron oxides, chemical formula, iron atom, oxygen atom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->[<b><sc_element sys_idtf="chemical_formula">Химическая формула</sc_element></b> <b><sc_element sys_idtf="iron_oxides">оксида железа(III)</sc_element></b> - <b><sc_element sys_idtf="elem_Fe">Fe</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>1</sub>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->[<b><sc_element sys_idtf="chemical_formula">Chemical formula</sc_element></b> of <b><sc_element sys_idtf="iron_oxides">iron oxides</sc_element></b> - <b><sc_element sys_idtf="elem_Fe">Fe</sc_element><b><sub>1</sub><b><sc_element sys_idtf="elem_O">O</sc_element><b><sub>1</sub>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (оксиды железа)](* <- lang_ru;; *);
+		[Def. (iron oxides)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> food_supplement;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="iron_oxides">Оксиды железа</sc_element></b> — используется в качестве красителя для окраски пищевых продуктов в желтые, оранжевые, красные, коричневые и черные цвета.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="iron_oxides">Iron oxides</sc_element></b> are used as a dye for coloring food in yellow, orange, red, brown and black colors.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
